@@ -2,7 +2,7 @@ FROM amazonlinux:2
 
 RUN yum update -y
 
-RUN curl -sL https://rpm.nodesource.com/setup_12.x | bash -
+RUN curl -sL https://rpm.nodesource.com/setup_14.x | bash -
 
 RUN yum install -y nodejs git which python-devel python-pip gcc procps
 
